@@ -61,7 +61,7 @@
               <td>{{ cancha.nombre }}</td>
               <td>{{ cancha.localidad }}</td>
               <td>{{ cancha.direccion }}</td>
-              <td>{{ cancha.precio }}</td>
+              <td>{{ cancha.precio }} €</td>
               <td><img [src]="cancha.imagen" alt="{{ cancha.nombre }}" class="img-thumbnail" style="max-width: 100px;" (click)="openImageModal(cancha.imagen, cancha.nombre)"></td>
               <td>{{ cancha.disponibilidad }}</td>
               <td>
@@ -97,7 +97,7 @@
           <div class="modal-dialog modal-dialog-centered">
             <div class="modal-content">
               <div class="modal-header">
-                <h5 class="modal-title" style="align-items: center;" id="imageModalLabel">Cancha {{ selectedCanchaNombre }}</h5>
+                <h5 class="modal-title" id="imageModalLabel">Cancha {{ selectedCanchaNombre }}</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
               </div>
               <div class="modal-body">

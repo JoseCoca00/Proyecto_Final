@@ -119,7 +119,6 @@ class ArbitroController extends AbstractController
         return new JsonResponse($ObtenerArbitros);
     }
 
-
      //Modificar Experencias o disponibilidad
     /**
      * Actualizar el estado de un árbitro en un partido.

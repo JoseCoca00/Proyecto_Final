@@ -65,9 +65,10 @@ boyd{
 .section .btn {
   background-color: #4e935c;
   border: none;
-  color: white;
+  color: rgb(53, 53, 53);
   padding: 10px 20px;
   text-decoration: none;
+  
 }
 
 .section .btn:hover {
